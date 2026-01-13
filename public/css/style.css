@@ -344,8 +344,10 @@ body {
   align-items: center;    /* Centraliza horizontalmente cada item */
   text-align: center;
 
-  background-color: #f1f5f9; /* melhor que branco puro */
-  border-radius: 16px;
+  /* background-color: #f1f5f9;*/
+  background-color: #dddee1;
+  /* background-color: #D1D0D5; */
+  border-radius: 20px;
   overflow: hidden;
   height: 100%;
   transition: transform 0.2s ease;
@@ -513,7 +515,8 @@ body {
   gap: 2.5rem;
 }
 .membro-equipe {
-  background-color: #f1f5f9;
+  /* background-color: #f1f5f9; */
+  background-color: #dddee1;
   border-radius: 20px;
   overflow: hidden;
   height: 100%;
