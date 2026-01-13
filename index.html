@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./public/css/style.css">
+  <title>Instituto Transformação</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="site-header">
+        <nav class="navbar" aria-label="Navegação principal">
+            <a href="#inicio" class="logo" aria-label="Página inicial do Instituto Transformação">
+                <img src="./public/img/logo.png" alt="Instituto Transformação - Projeto social de Jiu-Jitsu">
+            </a>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#horario">Horários</a></li>
+                <li><a href="./public/html/eventos.html">Eventos</a></li>
+                <li><a href="#equipe">Equipe</a></li>
+                <li><a href="#doacoes">Doações</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>        
+    </header>
+
+    <section id="inicio" class="inicio" aria-label="Inicio">
+        <div class="conteudo-inicio">
+            <div class="texto-inicio">
+                <h1>Transformando vidas através do tatame desde 2005</h1>
+                <p>
+                    Acreditamos que o jiu-jitsu pode transformar vidas. Nossa missão é oferecer
+                    oportunidades para crianças e jovens da comunidade através do esporte.
+                </p>
+                <a href="#doacoes" class="btn-doacao">
+                    Apoiar com uma Doação
+                </a>
+            </div>
+            <div class="imagem-inicio">
+                <img src="./public/img/jj-f1-removebg-preview.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="sobre" aria-labelledby="História do projeto">
+        <div class="container">
+            <header class="sobre-header">
+                <h2 id="sobre-title">Nossa história</h2>
+                <p class="sobre-lead">
+                    Uma trajetória construída com disciplina, superação e compromisso social.
+                </p>
+            </header>
+
+            <ol class="linha-do-tempo">
+                <li class="evento-historico">
+                    <h3>2005 · Onde tudo começou</h3>
+                    <p>
+                    Fundado em 11 de abril de 2005 no bairro da Lagoinha, o então Lagoinha Jiu-Jitsu
+                    nasceu com um propósito simples e poderoso: oferecer aulas gratuitas e abrir
+                    oportunidades para crianças e jovens da comunidade.
+                    </p>
+                </li>
+
+                <li class="evento-historico">
+                    <h3>2011 · Quando desistir não era uma opção</h3>
+                    <p>
+                    Em 2011, o projeto enfrentou um de seus momentos mais difíceis ao perder o espaço
+                    de treino para a construção de uma escola municipal. Sem um local adequado,
+                    os treinos continuaram em uma serralheria, mantendo vivo o propósito inicial.
+                    </p>
+                </li>
+
+                <li class="evento-historico">
+                    <h3>Um novo capítulo · Expansão</h3>
+                    <p>
+                    Com o apoio institucional da UERJ, o projeto conquistou um espaço cinco vezes
+                    maior, possibilitando a ampliação das atividades e a chegada de novas modalidades,
+                    fortalecendo ainda mais o impacto social na comunidade.
+                    </p>
+                </li>
+            </ol>
+
+            <article class="sobre-destaque">
+                <figure class="destaque-imagem">
+                    <img 
+                    src="./public/img/ana.jpg" 
+                    alt="Atleta do projeto social durante treino no tatame"
+                    loading="lazy"
+                    />
+                </figure>
+
+                <div class="destaque-texto">
+                    <h3>Um legado que vai além do tatame</h3>
+                    <p>
+                    Crianças que chegaram ao projeto com apenas seis anos hoje são adultos,
+                    faixas-pretas e referências dentro e fora do esporte.
+                    </p>
+                    <p>
+                    O Instituto Transformação é um espaço de formação humana, onde valores como
+                    respeito, disciplina e educação caminham lado a lado com o esporte.
+                    </p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- <section id="servicos" class="servicos" aria-labelledby="servicos-title">
+        <div class="container">
+            <header class="servicos-header">
+                <h2 id="servicos-title">Nossas atividades</h2>
+                <p class="servicos-lead">
+                    Cada modalidade é pensada como uma ferramenta de desenvolvimento físico,
+                    emocional e social.
+                </p>
+            </header>
+
+            <ul class="servicos-lista">
+                <li>
+                    <article class="servico-card">
+                    <h3>Jiu-Jitsu Adulto Misto</h3>
+                    <p>
+                        Turma voltada para homens e mulheres, com foco no desenvolvimento técnico,
+                        condicionamento físico e fortalecimento de valores como disciplina,
+                        respeito e perseverança.
+                    </p>
+                    </article>
+                </li>
+                <li>
+                    <article class="servico-card">
+                    <h3>Jiu-Jitsu Infantil</h3>
+                    <p>
+                        Mais do que aprender golpes, as crianças desenvolvem coordenação,
+                        confiança, convivência social e respeito ao próximo desde cedo.
+                    </p>
+                    </article>
+                </li>
+                <li>
+                    <article class="servico-card">
+                    <h3>Jiu-Jitsu Feminino</h3>
+                    <p>
+                        Um espaço seguro e acolhedor para mulheres que buscam saúde,
+                        fortalecimento físico, autodefesa e autonomia.
+                    </p>
+                    </article>
+                </li>
+                <li>
+                    <article class="servico-card">
+                    <h3>Judô</h3>
+                    <p>
+                        Modalidade que contribui para o desenvolvimento motor,
+                        disciplina e formação educacional, ampliando o alcance do
+                        projeto dentro da comunidade.
+                    </p>
+                    </article>
+                </li>
+                <li>
+                    <article class="servico-card">
+                    <h3>Pilates</h3>
+                    <p>
+                        Atividade voltada à saúde, reabilitação e qualidade de vida,
+                        complementando o cuidado físico oferecido pelo Instituto.
+                    </p>
+                    </article>
+                </li>
+            </ul>
+        </div>
+    </section> -->
+
+    <section id="servicos" class="servicos" aria-labelledby="servicos-title">
+  <div class="container">
+
+    <header class="servicos-header">
+      <h2 id="servicos-title">Nossas atividades</h2>
+      <p class="servicos-lead">
+        Esporte, educação e inclusão como ferramentas de transformação social.
+      </p>
+    </header>
+
+    <!-- MODALIDADES ESPORTIVAS -->
+    <ul class="servicos-lista">
+
+      <li>
+        <article class="servico-card">
+          <img src="./public/img/imgcrianca.png" alt="Aula de jiu-jitsu adulto no tatame">
+          <h3>Jiu-Jitsu Adulto Misto</h3>
+          <p>Desenvolvimento técnico, condicionamento físico e fortalecimento de valores.</p>
+        </article>
+      </li>
+
+      <li>
+        <article class="servico-card">
+          <img src="./public/img/imgcrianca.png" alt="Crianças treinando jiu-jitsu">
+          <h3>Jiu-Jitsu Infantil</h3>
+          <p>Coordenação, confiança, convivência social e respeito desde cedo.</p>
+        </article>
+      </li>
+
+      <li>
+        <article class="servico-card">
+          <img src="./public/img/imgcrianca.png" alt="Treino de jiu-jitsu feminino">
+          <h3>Jiu-Jitsu Feminino</h3>
+          <p>Espaço seguro para fortalecimento físico, autodefesa e autonomia.</p>
+        </article>
+      </li>
+
+      <li>
+        <article class="servico-card">
+          <img src="./public/img/imgcrianca.png" alt="Aula de judô com crianças">
+          <h3>Judô</h3>
+          <p>Disciplina, desenvolvimento motor e formação educacional.</p>
+        </article>
+      </li>
+
+      <li>
+        <article class="servico-card">
+          <img src="./public/img/imgcrianca.png" alt="Treino de muay thai">
+          <h3>Muay Thai</h3>
+          <p>Condicionamento físico, disciplina e autoconfiança.</p>
+        </article>
+      </li>
+
+      <li>
+        <article class="servico-card">
+          <img src="./public/img/imgcrianca.png" alt="Aula de ginástica">
+          <h3>Ginástica</h3>
+          <p>Promoção da saúde, mobilidade e qualidade de vida.</p>
+        </article>
+      </li>
+
+    </ul>
+
+    <!-- DESTAQUE SOCIAL -->
+    <article class="servicos-destaque">
+      <h3>Educação e inclusão</h3>
+      <p>
+        Além das modalidades esportivas, o Instituto Transformação oferece
+        aulas de <strong>língua portuguesa para refugiados</strong> e atende
+        alunos com <strong>necessidades especiais</strong>, reforçando o
+        compromisso com inclusão, acolhimento e cidadania.
+      </p>
+    </article>
+
+  </div>
+</section>
+
+    
+    <section id="horario" class="horarios" aria-labelledby="horarios-title">
+        <div class="container">
+            <header class="horarios-header">
+                <h2 id="horarios-title">Horários das atividades</h2>
+                <p class="horarios-lead">
+                    Confira os dias e horários das turmas disponíveis em cada modalidade.
+                </p>
+            </header>
+
+            <div class="tabela-wrapper" tabindex="0">
+                <table class="tabela-horarios">
+                    <caption>
+                    Grade semanal de horários das atividades do Instituto Transformação
+                    </caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Atividade</th>
+                            <th scope="col">Turma</th>
+                            <th scope="col">Segunda</th>
+                            <th scope="col">Terça</th>
+                            <th scope="col">Quarta</th>
+                            <th scope="col">Quinta</th>
+                            <th scope="col">Sábado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- JIU-JITSU -->
+                        <tr>
+                            <th scope="rowgroup" rowspan="4">Jiu-Jitsu</th>
+                            <th scope="row">Infantil 1 (até 9 anos)</th>
+                            <td>18:15</td>
+                            <td>—</td>
+                            <td>—</td>
+                            <td>18:15</td>
+                            <td>—</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Infantil 2 (+10 anos)</th>
+                            <td>19:00</td>
+                            <td>—</td>
+                            <td>—</td>
+                            <td>19:00</td>
+                            <td>—</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Feminino (+13 anos)</th>
+                            <td>—</td>
+                            <td>18:30</td>
+                            <td>18:30</td>
+                            <td>—</td>
+                            <td>—</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Adulto Misto (+13 anos)</th>
+                            <td>19:45</td>
+                            <td>19:30</td>
+                            <td>19:30</td>
+                            <td>19:45</td>
+                            <td>10:30</td>
+                        </tr>
+                        <!-- JUDÔ -->
+                        <tr>
+                            <th scope="rowgroup" rowspan="3">Judô</th>
+                            <th scope="row">Infantil 1 (até 9 anos)</th>
+                            <td>—</td>
+                            <td>18:30</td>
+                            <td>18:30</td>
+                            <td>—</td>
+                            <td>—</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Infantil 2 (+10 anos)</th>
+                            <td>—</td>
+                            <td>19:15</td>
+                            <td>19:15</td>
+                            <td>—</td>
+                            <td>—</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Adulto Misto (+13 anos)</th>
+                            <td>18:30</td>
+                            <td>—</td>
+                            <td>—</td>
+                            <td>18:30</td>
+                            <td>—</td>
+                        </tr>
+                        <!-- PILATES -->
+                        <tr>
+                            <th scope="rowgroup" rowspan="3">Pilates</th>
+                            <th scope="row">Estímulo Psicomotor</th>
+                            <td>—</td>
+                            <td>—</td>
+                            <td>—</td>
+                            <td>17:30</td>
+                            <td>—</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Adulto 1</th>
+                            <td>—</td>
+                            <td>—</td>
+                            <td>—</td>
+                            <td>18:30</td>
+                            <td>—</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Adulto 2</th>
+                            <td>—</td>
+                            <td>—</td>
+                            <td>—</td>
+                            <td>19:30</td>
+                            <td>—</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="equipe" class="equipe" aria-labelledby="equipe-title">
+        <div class="container">
+            <header class="equipe-header">
+                <h2 id="equipe-title">Nossa equipe</h2>
+                <p class="equipe-lead">
+                    Pessoas que dedicam tempo, conhecimento e propósito para transformar vidas
+                    todos os dias.
+                </p>
+            </header>
+            <ul class="equipe-lista">
+                <li>
+                    <article class="membro-equipe">
+                    <figure class="membro-foto">
+                        <img 
+                        src="./public/img/ana.jpg"
+                        alt="Leonardo, mestre de jiu-jitsu e fundador do Projeto Transformação"
+                        loading="lazy"
+                        />
+                    </figure>
+                    <div class="membro-info">
+                        <h3>Leonardo</h3>
+                        <p class="cargo">Fundador e mestre do projeto</p>
+                        <p>
+                        Responsável pela criação do Instituto Transformação, Leonardo dedica sua
+                        trajetória ao uso do jiu-jitsu como ferramenta de educação, disciplina e
+                        mudança social.
+                        </p>
+                    </div>
+                    </article>
+                </li>
+
+                <li>
+                    <article class="membro-equipe">
+                    <figure class="membro-foto">
+                        <img 
+                        src="./public/img/ana.jpg"
+                        alt="Thamires, integrante da equipe do Instituto Transformação"
+                        loading="lazy"
+                        />
+                    </figure>
+                    <div class="membro-info">
+                        <h3>Thamires</h3>
+                        <p class="cargo">Instrutora</p>
+                        <p>
+                        Atua diretamente nas atividades do projeto, auxiliando no desenvolvimento
+                        técnico e humano dos alunos.
+                        </p>
+                    </div>
+                    </article>
+                </li>
+
+                <li>
+                    <article class="membro-equipe">
+                    <figure class="membro-foto">
+                        <img 
+                        src="./public/img/ana.jpg"
+                        alt="Marlon, integrante da equipe do Instituto Transformação"
+                        loading="lazy"
+                        />
+                    </figure>
+                    <div class="membro-info">
+                        <h3>Marlon</h3>
+                        <p class="cargo">Instrutor</p>
+                        <p>
+                        Contribui para a formação esportiva e social dos alunos, reforçando valores
+                        como respeito, compromisso e perseverança.
+                        </p>
+                    </div>
+                    </article>
+                </li>
+
+                <li>
+                    <article class="membro-equipe">
+                    <figure class="membro-foto">
+                        <img 
+                        src="./public/img/jose.jpg"
+                        alt="José, integrante da equipe do Instituto Transformação"
+                        loading="lazy"
+                        />
+                    </figure>
+                    <div class="membro-info">
+                        <h3>José</h3>
+                        <p class="cargo">Instrutor</p>
+                        <p>
+                        Atua no apoio às aulas e na orientação dos alunos, contribuindo para um
+                        ambiente seguro, respeitoso e acolhedor.
+                        </p>
+                    </div>
+                    </article>
+                </li>
+
+                <li>
+                    <article class="membro-equipe">
+                    <figure class="membro-foto">
+                        <img 
+                        src="./public/img/ana.jpg"
+                        alt="Ana Clara, integrante da equipe do Instituto Transformação"
+                        loading="lazy"
+                        />
+                    </figure>
+                    <div class="membro-info">
+                        <h3>Ana Clara</h3>
+                        <p class="cargo">Instrutora</p>
+                        <p>
+                        Participa das atividades do projeto com foco no acolhimento e no
+                        desenvolvimento das crianças e jovens atendidos.
+                        </p>
+                    </div>
+                    </article>
+                </li>
+
+                <li>
+                    <article class="membro-equipe">
+                    <figure class="membro-foto">
+                        <img 
+                        src="./public/img/ana.jpg"
+                        alt="Alan, integrante da equipe do Instituto Transformação"
+                        loading="lazy"
+                        />
+                    </figure>
+                    <div class="membro-info">
+                        <h3>Alan</h3>
+                        <p class="cargo">Instrutor</p>
+                        <p>
+                        Auxilia nas aulas e no acompanhamento dos alunos, fortalecendo o espírito
+                        de equipe e o compromisso social do projeto.
+                        </p>
+                    </div>
+                    </article>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="doacoes" class="doacoes" aria-labelledby="doacoes-title">
+        <div class="container">
+
+            <header class="doacoes-header">
+            <h2 id="doacoes-title">Faça parte da transformação</h2>
+            <p class="doacoes-lead">
+                Sua contribuição mantém o projeto ativo e permite que mais crianças
+                e jovens tenham acesso ao esporte, à educação e a um futuro melhor.
+            </p>
+            </header>
+
+            <div class="doacoes-conteudo">
+
+            <article class="doacao-card">
+                <h3>Doação em dinheiro</h3>
+                <p>
+                Contribuições financeiras ajudam na manutenção do espaço,
+                compra de materiais e apoio às atividades do projeto.
+                </p>
+
+                <div class="pix-box" role="group" aria-labelledby="pix-title">
+                <p id="pix-title"><strong>PIX para doação:</strong></p>
+                <p class="pix-chave">
+                    pix@projetojj.com.br
+                </p>
+                </div>
+            </article>
+
+            <article class="doacao-card">
+                <h3>Doação de materiais</h3>
+                <p>
+                Também aceitamos doações de kimonos, faixas e materiais esportivos
+                em bom estado. Esses itens fazem diferença direta no dia a dia
+                dos alunos.
+                </p>
+                <p>
+                Para combinar a entrega, entre em contato conosco.
+                </p>
+            </article>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Contato -->
+    <footer id="contato" class="footer">
+        <div class="contato-container">
+            <p><strong>Instituto Transformação</strong></p>
+            <p>Rua Exemplo, 123 – Nova Friburgo, RJ</p>
+            <p>contato@projetojj.com.br</p>
+            <p>© 2025 · Projeto Social de Jiu-Jitsu</p>
+        </div>
+    </footer>
+</body>
+</html>
